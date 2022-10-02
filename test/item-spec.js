@@ -5,6 +5,9 @@ const {Room} = require("../class/room.js");
 const {Item} = require("../class/item.js");
 const {Food} = require("../class/food.js");
 
+const {DarkRoom} = require("../class/darkroom.js");
+const {Light} = require("../class/light.js");
+
 describe ('Item', function () {
 
   it('should have name and description attributes', function () {
